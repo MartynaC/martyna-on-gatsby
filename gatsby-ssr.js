@@ -1,10 +1,14 @@
-/**
- * Implement Gatsby's SSR (Server Side Rendering) APIs in this file.
- *
- * See: https://www.gatsbyjs.com/docs/ssr-apis/
- */
+import * as React from "react"
 
-// You can delete this file if you're not using it
-exports.onRenderBody = ({ setHtmlAttributes }) => {
-    setHtmlAttributes({ lang: "en" })
+export const onRenderBody = ({ setHeadComponents }) => {
+  setHeadComponents([
+    <link
+      rel="preload"
+      href="/fonts/Brown-Regular.woff"
+      as="font"
+      type="font/woff"
+      crossOrigin="anonymous"
+      key="Brown"
+    />,
+  ])
 }

@@ -1,6 +1,135 @@
 //Here you can customize bootstrap
-$primary: #663399;
+$primary: #ffeaea;
 @import "~bootstrap/scss/bootstrap";
+@font-face {
+  font-family: 'Brown';
+  font-display: swap;
+  font-style: normal;
+  src: url(/fonts/Brown-Regular.woff) format("woff");
+}
 
+
+
+body {
+  background-color: $primary;
+  color: black;
+}
+a {
+  color: #333;
+}
+.sticky {
+    position: fixed;
+    top: 100px;
+}
+.scrollable-content {
+position: absolute;
+    left: 30%;
+    .theBreak {
+      height: 200px;
+    }
+}
+ul.main-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: #333;
+    text-align: left;
+    left: 20%;
+    position: relative;
+    font-size: 43px;
+    li a {
+        display: block;
+        color: #333;
+        text-align: left;
+        text-decoration: none;
+        font-family: "Brown";
+    }
+    li.work {
+       margin-top: -30px;
+        padding-left: 50px;
+ }
+}
+
+div.tag-table-cell {
+border: 1px solid black;
+    padding: 0px;
+    max-height: 40px;
+    display: flex;
+    button {
+        font-size: 12px;
+        font-weight: 700;
+        color: #333;
+    }
+    .triangle-down {
+        width: 0;
+        height: 0;
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        border-top: 50px solid #333;
+      }
+      .heart {
+        /* Modify size here: */
+        --size: 20px;
+      
+        position: relative;
+        width: var(--size);
+        height: calc(var(--size) * 0.3);
+      }
+      
+      .heart:before,
+      .heart:after {
+        position: absolute;
+        content: "";
+        left: calc(var(--size) * 0.55);
+        top: 0;
+        width: calc(var(--size) * 0.55);
+        height: calc(var(--size) * 0.85);
+        background: #333;
+        border-radius: calc(var(--size) * 0.55) calc(var(--size) * 0.55) 0 0;
+        transform: rotate(-45deg);
+        transform-origin: 0 100%;
+      }
+      
+      .heart:after {
+        left: 0;
+        transform: rotate(45deg);
+        transform-origin: 100% 100%;
+      }
+      
+}
+div.tags-list {
+      display: inline-flex;
+      /* border: 1px solid; */
+      position: fixed;
+      width: 52%;
+      left: 40%;
+      top: -22px;
+      background-color: #ffeaea;
+}
+div.tag-table-cell {
+  display: contents;
+  button {
+    border: 1px solid black;
+    border-radius: 0px;
+  }
+}
+
+div.image-grid {
+  --bs-gutter-x: 0px;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  div.col-sm-6, .col-sm-12 {
+    padding: 0px;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
 
 

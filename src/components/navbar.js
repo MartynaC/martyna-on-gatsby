@@ -1,7 +1,7 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
-
+import { StaticImage } from "gatsby-plugin-image"
 const isActive = ({ isCurrent }) => {
   return isCurrent ? { className: "nav-link active" } : {className: "nav-link"}
 }
@@ -13,32 +13,22 @@ const ExactNavLink = props => (
 const Navbar = ({ siteTitle }) => {
   return (
     <nav className="navbar navbar-expand-md navbar-dark bg-primary">
-      <div className="container-fluid">
-        <Link to="/" className="navbar-brand" href="#">{siteTitle}</Link>
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-navbar"
-                aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
-        </button>
+      <ul className="main-menu">
+						<li className="list-item">
+						<Link to="/art">ART</Link>
+            </li>
+            <li className="list-item work">
+						<Link to="/work">WORK</Link>
+						</li>
+						<li className="list-item">
+            <Link to="/about">ABOUT</Link>
+						</li>
+						<li className="list-item">
+            <Link to="/contact">CONTACT</Link>	
+						</li>
+					</ul>
 
-        <div className="collapse navbar-collapse" id="main-navbar">
-          <ul className="navbar-nav me-auto mb-2 mb-md-0">
-            <li className="nav-item">
-              <ExactNavLink
-                to="/"
-              >
-                Home
-              </ExactNavLink>
-            </li>
-            <li className="nav-item">
-              <ExactNavLink
-                to="/about"
-              >
-                About
-              </ExactNavLink>
-            </li>
-          </ul>
-        </div>
-      </div>
+				
     </nav>
   )
 }

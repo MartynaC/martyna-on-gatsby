@@ -18,10 +18,17 @@ const Layout = ({ children }) => {
 
   return (
     <div className="container-fluid p-0">
-      <Navbar siteTitle={data.site.siteMetadata?.title || `Title`} />
+      	
+    
       <main>
+      <div className="col-md-3 sticky">
+      <Navbar siteTitle={data.site.siteMetadata?.title || `Title`} />
+      </div>
+      <div className="col-md-9 scrollable-content">
         {children}
+        </div>
       </main>
+     
     </div>
   )
 }

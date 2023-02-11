@@ -6,15 +6,26 @@ import {Seo} from "../components/seo"
 
 const WorkPage = () => (
   <Layout>
-    <div className="container text-center my-5">
+    <div className="container commercial ">
+ 
+      <div className="row page-description">
+      <h1>Frontend development</h1>
+      <p>I have extensive experience working with various web tools. 
+        I specialize in creating web content, platforms, apps, and e-commerce websites. 
+        I assist businesses in improving their online visibility and provide clear solutions to navigate the digital landscape.</p>
+    </div>
     <Gallery />
-      <Link to="/">Go back to the homepage</Link>
+
     </div>
   </Layout>
 )
 
+
+
 export default WorkPage
 
+
+
 export const Head = () => (
-    <Seo title="Page two" />
+    <Seo title="Frontend Development Portfolio" />
 )

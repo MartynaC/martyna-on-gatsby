@@ -6,11 +6,19 @@ import {Seo} from "../components/seo"
 
 const ContactPage = () => (
   <Layout>
-    <div className="container text-center my-5">
-      <h1>Hi from the second page</h1>
-      <p>Welcome to page 2</p>
-      <Link to="/">Go back to the homepage</Link>
-    </div>
+    <div className="container  contact-page">
+        <div className="row row page-description">
+          <div className="col-md-12">
+            <h1>
+            <strong>hello</strong>@martynachojnacka.com</h1>
+            <h1>0048 577 083 564</h1>
+            <p>LINKEDIN INSTAGRAM VIMEO</p>
+
+            </div>
+        
+          </div>
+
+      </div>
   </Layout>
 )
 

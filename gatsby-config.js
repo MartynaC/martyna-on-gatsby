@@ -13,6 +13,16 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `projects`,
+        path: `${__dirname}/src/data/`,
+      },
+    },
+    `gatsby-transformer-json`,
+
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -23,6 +33,16 @@ module.exports = {
         },
       },
     },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `nunito` // you can also specify font weights and styles
+        ],
+        display: 'swap'
+      },
+    },
+    
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

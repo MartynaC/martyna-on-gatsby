@@ -6,31 +6,22 @@ import {Seo} from "../components/seo"
 
 const AboutPage = () => (
   <Layout>
-    <div className="container  my-5">
-      <div className="container">
-        <div className="row">
+    <div className="container  about-page">
+
+        <div className="row row page-description">
           <div className="col-md-12">
-            <h2>My name is Martyna, I am a programmer and artist. I create
-            commercial and artistic content, online and in real, creatively and
-            efficiently using new technologies. </h2>
+            <h1>
+            I create business and artistic content, online and in real, efficiently, with curiosity exploring new technologies.</h1>
+            <p>My name is Martyna and I am a skilled and insightful programmer and artist. I began my career as a self-taught programmer, working on small CMS projects. This experience led me to become proficient in front-end programming. </p>
+        
             </div>
-            <div className="col-md-6">
-            I started out as a self-taught
-            programmer, mainly working on small cms projects, this made me dive
-            into front end programming.
+        
           </div>
-          <div className="col-md-6">
-            Over the years I have gained experience working on different
-            platforms with multiple tools, I learned how to blend my skills in
-            accordance to project needs.​ In 2019 I have graduated from the SWPS
-            University of Social Sciences and Humanities, where I studied
-            Creative Coding on postgraduate level.
-          </div>
-        </div>
         <div className="row">
-        <div className="col-md-6">
+        <div className="col-md-6 left-column">
+       <p>Throughout the years, I have gained a wealth of experience working on a variety of platforms and tools, allowing me to adapt my skills to the specific needs of each project.</p>
           <ul>
-          Web:
+          <strong>Web:</strong>
               <li>HTML5 </li>
               <li>sass/scss/css </li>
               <li>javascript / jQuery  </li>
@@ -40,18 +31,23 @@ const AboutPage = () => (
               <li>graphQL</li>
               <li>react.js </li>
               <li>WordPress / Woocommerce</li>
-              <li> Other</li>
+              <br></br>
+              <strong>Other</strong>
               <li>Laser Cutting
             </li>
               <li>Android Studio</li>
            
             </ul>
-            
+            <br></br>
+            <p>I speak in four human languages, currently learning another one. I believe that code is the most efficient language in the world and I am constantly seeking to push the boundaries of what can be achieved with it.</p>
+            <p>I am an avid traveler and South America is my favorite place in the world. In my free time, I enjoy going on adventures with my dog, Buster.</p>
                 
           </div>
-          <div className="col-md-6">
-            TOOLS: 
+          <div className="col-md-6 right-column">
+          <p>In 2019, I graduated from SWPS University of Social Sciences and Humanities with a postgraduate degree in Creative Coding. </p>
+          <br></br>
             <ul>
+            <strong>Tools:</strong>
               <li>Creative coding : </li>
               <li>Processing </li>
               <li>p5.js </li>
@@ -67,24 +63,20 @@ const AboutPage = () => (
               <li>MadMapper </li>
               <li>VDMX</li>
             </ul>
+            <p>I have a particular passion for working with musicians, art institutions, theaters, and museums. I seamlessly blend my programming skills with my artistic capabilities to create unique and impactful projects.</p>
+            <p>
+
+      I am able to participate in different stages of projects - from the conceptual parts to technical development. I create artistic experiments and execute commercial projects.</p>
+       
           </div>
          
         </div>
         <div className="row">
-          <div className="col-md-6">
-            I have been working with many different clients, from artists and family businesses to big companies and institutions.
-          </div>
-          <div className="col-md-6">
-        Among many, i have been working with musicians, art institutions, theatres and museums. 
-        </div>
-          </div>
-        I blend my profession with art creation. I speak 4 different human
-        languages and many computer ones, constantly adding new ones. I believe
-        code is the most efficient language in the world. I travel around with
-        my projects and for fun. South America is my favourite place in the
-        world. Buster is my favourite dog in the world. tetha
+      
+        
       </div>
-      <Link to="/">Go back to the homepage</Link>
+ 
+ 
     </div>
   </Layout>
 )

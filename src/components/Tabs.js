@@ -4,7 +4,7 @@ function Tabs({filterCategory, tabsData}){
     return(
         <>
 
- <div className="text-center tags-list my-4">
+ <div className="text-center tags-list my-4 sticky-element">
  {
  tabsData.map((category, index)=>{
       return (

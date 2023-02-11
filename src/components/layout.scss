@@ -1,13 +1,7 @@
 //Here you can customize bootstrap
 $primary: #ffeaea;
 @import "~bootstrap/scss/bootstrap";
-@font-face {
-  font-family: 'Brown';
-  font-display: swap;
-  font-style: normal;
-  src: url(/fonts/Brown-Regular.woff) format("woff");
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400&display=swap');
 
 
 body {
@@ -15,42 +9,163 @@ body {
   color: black;
 }
 a {
-  color: #333;
+  color: #000;
 }
 .sticky {
     position: fixed;
-    top: 100px;
 }
 .scrollable-content {
 position: absolute;
-    left: 30%;
+    left: 25%;
     .theBreak {
       height: 200px;
     }
 }
+img.logo {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+img.hidden-link {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    opacity: 0;
+}
+canvas.logo-canvas {
+  position: fixed;
+}
+.navbar {
+  top: 220px;
+
+}
+div.grid-img {
+  border: 4px solid transparent;
+  opacity: 0.99;
+  a{
+    text-decoration: none;
+    }
+div.gradient-making {
+  position: relative;
+  max-height: 100%;
+}
+    
+}
+
+div.project-short-desc {
+  background-color: #ffeaea;
+  color: #000;
+  font-family: "Nunito Sans";
+  font-weight: 200;
+  padding: 20px;
+  padding-bottom: 10px;
+  opacity: 1;
+  bottom: 0px;
+  z-index: 9999;
+  position: absolute;
+  border: 1px solid #000;
+  width: 97%;
+  display: none;
+  animation-name: description;
+  animation-duration: 300ms;
+  height: 100%;
+  h3 {
+    font-size: 16px;
+    font-weight: 200;
+    font-family: 'Nunito Sans';
+    padding-left: 0px;
+  }
+  p {
+    font-size: 14px;
+    font-weight: 200;
+    font-family: 'Nunito Sans';
+    padding-left: 0px;
+    margin-bottom: 0px;
+  }
+}
+@keyframes description {
+  from {height: 0px;}
+  to {height: 100%;}
+}
+
+
+.img-fluid:hover + div.project-short-desc, .img-fluid:focus + div.project-short-desc, .img-fluid:active + div.project-short-desc {
+
+
+  display: block;
+}
+div.project-short-desc:focus, .project-short-desc:active, .project-short-desc:hover {
+
+  display: block;
+}
+div.grid-img {
+ 
+}
+div.gradient-making {
+  padding: 10px;
+  img {
+  border: 0.5px solid #000;
+}
+}
+
+
 ul.main-menu {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    color: #333;
+    color: #000;
     text-align: left;
-    left: 20%;
+    left: 50px;
     position: relative;
-    font-size: 43px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 50px;
     li a {
         display: block;
-        color: #333;
+        color: #000;
         text-align: left;
         text-decoration: none;
-        font-family: "Brown";
+        font-family: 'Nunito Sans';
+        font-weight: 200;
     }
-    li.work {
-       margin-top: -30px;
-        padding-left: 50px;
- }
+    .dropdown-menu-right {
+      background-color: transparent;
+      border: none;
+      position: inherit;
+    }
+    .dropdown-toggle::after {
+      display: none;
+    }
+    .dropdown-item:hover, .dropdown-item:focus {
+      background-color: transparent;
+    }
+}
+p.sticky-bottom {
+  position: fixed;
+  left: 50px;
+  font-family: 'Nunito Sans';
+  font-size: 12px;
+}
+/* homepage */
+
+div.welcome {
+  padding-top: 170px;
+    text-align: left;
+    padding-left: 20px;
+h1 {
+  font-family: "Nunito Sans";
+  font-weight: 300;
+  font-size: 28px;
+}
 }
 
+
+video.homepagevideo {
+  max-width: 70%;
+  text-align: left;
+  float: left;
+  margin-left: 20px;
+}
 div.tag-table-cell {
 border: 1px solid black;
     padding: 0px;
@@ -58,15 +173,17 @@ border: 1px solid black;
     display: flex;
     button {
         font-size: 12px;
-        font-weight: 700;
-        color: #333;
+        font-weight: 400;
+        color: #000;
+        font-family: 'Nunito';
+        letter-spacing: 1px;
     }
     .triangle-down {
         width: 0;
         height: 0;
         border-left: 25px solid transparent;
         border-right: 25px solid transparent;
-        border-top: 50px solid #333;
+        border-top: 50px solid #000;
       }
       .heart {
         /* Modify size here: */
@@ -85,7 +202,7 @@ border: 1px solid black;
         top: 0;
         width: calc(var(--size) * 0.55);
         height: calc(var(--size) * 0.85);
-        background: #333;
+        background: #000;
         border-radius: calc(var(--size) * 0.55) calc(var(--size) * 0.55) 0 0;
         transform: rotate(-45deg);
         transform-origin: 0 100%;
@@ -101,9 +218,9 @@ border: 1px solid black;
 div.tags-list {
       display: inline-flex;
       /* border: 1px solid; */
-      position: fixed;
-      width: 52%;
-      left: 40%;
+      position: initial;
+      width: 100%;
+      left: 0%;
       top: -22px;
       background-color: #ffeaea;
 }
@@ -122,7 +239,7 @@ div.image-grid {
   flex-wrap: wrap;
   margin-top: 0px;
   margin-right: 0px;
-  margin-left: 0px;
+  margin-left: -5px;
   div.col-sm-6, .col-sm-12 {
     padding: 0px;
   }
@@ -133,3 +250,115 @@ div.image-grid {
 }
 
 
+/* PROJECTS PAGES */
+
+div.back-btn {
+  bottom: 20px;
+  position: fixed;
+  right: 50px;
+  a {
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 10px;
+  float: right;
+  font-family: 'Nunito';
+}
+}
+div.row.page-description {
+  div {
+    padding: 0px;
+  }
+  border-top: 1px solid black;
+  padding-top: 20px;
+  margin-left: 20px;
+  margin-top: 220px;
+  h1 {
+    font-size: 23px;
+    font-weight: 200;
+    font-family: 'Nunito Sans';
+    padding-left: 0px;
+    letter-spacing: 1px;
+  }
+  p {
+    font-size: 23px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-weight: 200;
+    font-family: 'Nunito Sans';
+    padding-left: 0px;
+    white-space: pre-line;  
+    vertical-align: bottom;
+  }
+  .project-data {
+    padding-left: 20px;
+  p {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 200;
+    font-family: 'Nunito Sans';
+    padding-left: 0px;
+    white-space: pre-line;  
+    vertical-align: bottom;
+  }
+}
+}
+div.creative div.row.page-description h1, div.commercial div.row.page-description h1, div.about-page div.row.page-description h1, div.contact-page div.row.page-description h1 {
+  font-size: 40px;
+}
+div.row.home.page-description {
+  margin-top: 0px;
+}
+
+img.project-main {
+  max-width: 650px;
+  width: 100%;
+}
+
+/* ABOUT PAGE */ 
+
+.about-page {
+  div.left-column {
+    padding-left: 32px;
+    ul{
+      padding-left: 0px;
+    }
+  }
+  div.right-column {
+    padding-left: 35px;
+    ul{
+      padding-left: 0px;
+    }
+  }
+  h1 {
+    margin-bottom: 35px;
+  }
+  div.row.page-description p, p, ul {
+  font-family: 'Nunito Sans';
+  font-size: 16px;
+  font-weight: 200;
+  list-style-type: none;
+}
+
+}
+
+/* MOBILE */
+
+@media only screen and (max-width: 600px) {
+  .scrollable-content {
+    position: relative;
+    left: 0px;
+    top: 180px;
+  }
+  .navbar {
+    top: 0px;
+    ul.main-menu {
+      font-size: 16px;
+    }
+  }
+  img.logo {
+    float: right;
+  }
+  div.row.page-description {
+    margin-top: 0px;
+  }
+}

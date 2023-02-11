@@ -1,0 +1,128 @@
+const dataArt =[
+    {
+        id:1,
+        title:"The Galaxy Travel Agency", 
+        category:"circuit bending / physical computing", 
+        stack:"Interactive installation - navigating through the galaxy from the lost spaceship cockipt.",
+        image:"/statek_fota.png",
+        link:"/project/creative/galaktyka", 
+       
+    },
+    {
+        id:2,
+        image:"/cymatyka.png",
+        title:"Cymatics",
+        description:"The audiovisual project is based on live-recorded materials, where I used many different liquids reacting to sound frequencies. The live show consisted of music composition played by orchestra and electronic layers with visuals.Visuals are based on rendered cymatics records blended with generative, digital layers based on algorithms reacting to sounds in real-time.",
+        stack:"Live visual performance focused around the Cymatics phenomena, audioreactive visuals for small orchestra and electronic music composition.",
+        category:"visual performance / generative",
+        link:"/project/creative/cymatics", 
+       
+    },
+    {
+        id:3,
+        image:"/pokoj.png",
+        title:"Visual-audio concert - 'Positive Disintegration'",
+        description:"",
+        category:"visual performance / generative",
+        stack:"Live visual performance, where music composer made a sound based on the visual story I created.",
+        link:"/project/creative/positive_disintegration", 
+    },
+    {
+        id:4,
+        image:"/blb7.png",
+        title:"The Blob",
+        description:"See the sound. The Blob is an audioreactive, geometric creation programmed to breathe and visualize. It changes its shape under the influence of sounds, physically representing them. Movement gives the form an organic feel, invites interpretation, experience and careful observation. Blob is a visualization transferred from the screen to the physical world, playing the main role in an audiovisual performance that takes place in actual three dimensions. The combination of sounds, shapes, and movement through technology, captures the senses, calls for concentration, exploration and being in the present moment. ",
+        category:"circuit bending / physical computing",
+        stack:"Kinetic Sculpture, Audioreactive, Interactive Installation inspired by Slime Mould organism.",
+        link:"/project/creative/blob", 
+    },
+    {
+        id:5,
+        image:"/blob_teatr.jpeg",
+        title:"The Blob - Theathre Scenography",
+        description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+        category:"circuit bending / physical computing",
+        stack:"Kinetic Sculpture based on my Blob project, made as a theathre scenography",
+        video:  "/rozgladanko.mp4",
+        link:"/project/creative/blob-theatre", 
+    },
+    {
+        id:6,
+        image:"/pudełko_1.jpeg",
+        title:"The Box - for Bulb Project",
+        description:"",
+        category:"circuit bending / physical computing",
+        stack:"DIY midi controller, which allows musicians to control the light installation and some sound parameters through pedals.",
+        video:  "",
+        link:"/project/creative/bulb-project", 
+       
+    },
+    {
+        id:7,
+        image:"/kondposter3.png",
+        title:"Kondensator Przepływu",
+        description:" ",
+        stack:"Audivisual and experimental band, consisted of two musicians and me as a visual artist.",
+        category:"visual performance / generative",
+        video:  "",
+        link:"/project/creative/kondensator_przeplywu", 
+       
+    },
+    {
+        id:8,
+        image:"/keen.png",
+        title:"Joanna Duda KEEN",
+        description:"",
+        category:"visual performance / generative",
+        video: "",
+        stack:"The composition of generative and 3d visuals for Joanna Duda’s Keen album, which I perform live during concerts.",
+        link:"/project/creative/keen", 
+    },
+    {
+        id:9,
+        image:"/pobiegnij.png",
+        title:"Run with me along the forest trails.",
+        description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+        stack:"Live visual performance, Audioreactive, 3D Animations, Generative Visuals, Touchdesigner",
+        category:"visual performance / generative",
+        link:"/project/creative/pobiegnij", 
+    },
+    {
+        id:10,
+        image:"/strangerthings.jpg",
+        title:"Stranger Things 4th Season Premiere After Party",
+        description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+        stack:"Visual performance, Audioreactive",
+        category:"visual performance / generative",
+        link:"/project/creative/stranger_things", 
+    },
+    {
+        id:11,
+        image:"/armia.png",
+        title:"Hype Scream Project",
+        description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+        category:"3d animation",
+        link:"/project/creative/armia", 
+    },
+    {
+        id:12,
+        image:"",
+        title:"Computer Science - ER4SE",
+        description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+        category:"3d animation",
+        link:"/project/creative/erase", 
+       
+    },
+    {
+        id:13,
+        image:"",
+        title:"Thomas Schumaher VJ Set",
+        description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+        category:"visual performance / generative",
+        stack:"Visual performance, Audioreactive, 3D Animations, Generative Visuals",
+       
+    },
+
+]
+
+export default dataArt;

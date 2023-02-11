@@ -1,0 +1,289 @@
+[
+    {
+      "id": "project1",
+      "title": "Bombraid.com",
+      "description": "The website I developed voluntarily with the team of Web Designers as a guide of how to prepare a cellar as a bomb shelter. It was designed and developed as a quick response to the war in Ukraine. It is focused on mobile users and contains many visual guides that are available for easy download on mobile, so they can be accesible offline.",
+      "slug": "commercial/bombraid",
+      "image":"/project_details/bombraid_yellow.png",
+  "video":"",
+      "gif": "/project_details/Bombraid.gif",
+      "stack": "React JS | HTML5 | SCSS", 
+      "link": "https://bombraid.com",
+      "date": "2022"
+    },
+    {
+      "id": "project2",
+      "title": "Exlibris",
+      "description": "The project for Musuem Łazienki Królewskie, where the user can generate his own custom exlibris for books in a style inspired by paintings from the White House in Museum Łazienki Królewskie.",
+      "slug": "commercial/exlibris",
+      "image": "https://www.project1.com/img.jpg",
+  "video":"",
+"gif": "/project_details/Ekslibris.gif",
+      "stack": "HTML5 | SCSS | Javascript | PHP",
+      "link": "https://ekslibris.lazienki-krolewskie.pl/",
+      "date": "2020"
+    },
+    {
+      "id": "project3",
+      "title": "Dział zagraniczny - Foreign Department",
+      "description": "The website created for the podcaster who is inviting journalist and expert guests reporting from all over the world. It is a news portal, where the user can find foreign affairs, politics, economy, culture, and science news.",
+      "slug": "commercial/dzial-zagraniczny",
+    
+      "stack": "Wordpress | HTML5 | SCSS | Javascript",
+  "video":"",
+"gif": "/project_details/dzialzagraniczny.gif",
+      "link": "https://dzialzagraniczny.pl/",
+      "date": "2022"
+    },
+    {
+      "id": "project4",
+      "title": "Kiss Dental Care",
+      "description": "The website for innovative dental clinic we created from scratch, together with the web designer and my co-worker in Studio Materie. The clinic is actively expanding so we put a lot of effort into creating a website that will be easy and intuitive to maintain and update in the future.",
+      "slug": "commercial/kiss-dental-care",
+  "video":"",
+"gif": "/project_details/Kiss.gif",
+    
+      "stack": "Wordpress | HTML5 | SCSS | Javascript | ACF",
+      "link": "https://kissdental.care/",
+      "date": "2022"
+    },
+    {
+      "id": "project5",
+      "title": "Leica Store Warsaw",
+      "description": "The store for Leica Store Warsaw - that distributes Leica cameras and lenses in Poland and runs workshops for photographers as well as Leica Gallery. I am responsible for the development and constant maintenance of this store since 2021.",
+      "slug": "commercial/leica-store-warsaw",
+    
+      "stack": "Wordpress | HTML5 | SCSS | Javascript",
+      "link": "https://leicastore.pl/",
+  "video":"",
+"gif":"/project_details/Leicastore.gif",
+      "date": "2021"
+    },
+    {
+      "id": "project7",
+      "title": "Warsaw Concept Store",
+      "description": "The online store for Warsaw Concept Store - a Warsaw based boutique with luxury products from Polish designers. I am responsible for the development and constant maintenance of this store since 2018.",
+      "slug": "commercial/warsaw-concept-store",
+  "video":"",
+"gif": "/project_details/WCS.gif",
+    
+      "stack": "Wordpress, HTML5, SCSS, Javascript",
+      "link": "https://warsawconceptstore.pl/",
+      "date": "2022"
+    },
+    {
+      "id": "project8",
+      "title": "Leica Street Photo",
+      "description": "A competition website for Leica Street Photo. Tens of thousands of photos get submitted every year.",
+      "slug": "commercial/leica-street-photo",
+  "video":"",
+"gif": "/project_details/lsf.gif",
+    
+      "stack": "Wordpress, HTML5, SCSS, Javascript",
+      "link": "https://leicastreetphoto.pl/",
+      "date": "2020, 2021, 2022"
+    
+    },
+    {
+      "id": "project9",
+      "title": "Uzdrowisko - Yoga and Chinese Medicine",
+      "description": "The simple portfolio page for yoga teacher and chinese medicine practitioner, created with Wordpress and Reactpress.",
+      "slug": "commercial/uzdrowisko",
+    
+  "video":"",
+"gif":"/project_details/uzdrowisko..gif",
+      "stack": "React JS, Reactpress, Wordpress, HTML5, SCSS, ",
+      "link": "https://uzdrowisko-akupunktura.pl/",
+      "date": "2022"
+    },
+    {
+      "id": "project10",
+      "title": "Kisi Kisi",
+      "description": "The simple website with nice animations for Kisi-Kisi - a family run company that sells beetroot kvas. The user can find information about the beetroot drink and check where to refill or buy bottles.",
+      "slug": "commercial/kisi-kisi",
+    
+  "video":"",
+"gif":"/project_details/kisi.gif",
+      "stack": "Custom Wordpress, CSS, Javascript, Lottie",
+      "link": "https://kisi-kisi.pl/",
+      "date": "2022"
+    },
+    {
+      "id": "project12",
+      "title": "Fashion Biznes",
+      "description": "The portal with news about fashion industry and job offers with company and freelancer profiles. Companies can post their jobs and get evaluated by their employers, freelancers can find jobs and users can read news from fashion industry. ",
+      "slug": "commercial/fashion-biznes",
+    
+  "video":"",
+"gif":"/project_details/fashion.gif",
+      "stack": "Custom Wordpress, ACF, PHP, CSS, Javascript,",
+      "link": "https://fashionbiznes.pl/",
+      "date": "2021"
+    },
+    {
+      "id": "project13",
+      "title": "Pracownia Ogrody - Orenda Gardens",
+      "description": "The Garden designer portfolio website. ",
+      "slug": "commercial/orenda-ogrody",
+    
+  "video":"",
+"gif":"/project_details/orenda.gif",
+      "stack": "Custom Wordpress, CSS, Javascript,",
+      "link": "https://procownia-orenda.pl/",
+      "date": "2020"
+    },
+    {
+      "id": "project14",
+      "title": "Michał Łuczak - Photographer",
+      "description": "The simple photographer's portfolio website, which showcases his photos, books and projects. ", 
+      "slug": "commercial/michal-luczak",
+    
+  "video":"",
+"gif":"/project_details/michalluczak.gif",
+      "stack": "Custom Wordpress, CSS, Javascript,",
+      "link": "http://michal-luczak.com/",
+      "date": "2019"
+    },
+    {
+      "id": "project15",
+      "title": "Jan Brykczyński - Photographer",
+      "description": "The simple photographer's portfolio website, which showcases his photos, books and projects. ", 
+      "slug": "commercial/jan-brykczynski",
+    
+  "video":"",
+"gif":"/project_details/janbrykczynski.gif",
+      "stack": "Custom Wordpress, CSS, Javascript,",
+      "link": "https://janbrykczynski.com/",
+      "date": "2020"
+    },
+    {
+      "id": "project16",
+      "title": "Zankru - clothing and accessory brand ",
+      "description": "Fashion designer and clothing brand portfolio and showcase website. ",
+      "slug": "commercial/zankru",
+    
+  "video":"",
+"gif":"/project_details/zankru.gif",
+      "stack": "Custom Wordpress, CSS, Javascript,",
+      "link": "https://zankru.com/",
+      "date": "2018"
+    },
+    {
+      "id": "project17",
+      "title": "6X7 Proffesional Photography",
+      "description": "The shop for a company that sells film cameras and distributes Leica in Poland. Required customizing the WooCommerce plugin and creating a custom plugin for the company's needs.",
+      "slug": "commercial/6x7",
+    
+  "video":"",
+"gif":"/project_details/6x7store.gif",
+      "stack": "Custom Wordpress, CSS, Javascript, ACF, PHP, WooCommerce",
+      "link": "https://6X7.com.pl/",
+      "date": "2021"
+    },
+    {
+      "id": "project18",
+      "title": "Oaktopus Records",
+      "description": "The Oaktopus Records Label website, where user can listen to the newest releases and find information about the label and artists. ",
+      "slug": "commercial/oaktopus-records",
+    
+  "video":"",
+"gif":"/project_details/oaktopus.gif",
+      "stack": "Custom Wordpress, CSS, Javascript",
+      "link": "https://www.oaktopusrecords.com/",
+      "date": "2018"
+    },
+
+
+
+
+    {
+      "id": "project19",
+      "title": "Cymatics",
+      "description": "The audiovisual project is based on live-recorded materials, where I used many different liquids reacting to sound frequencies. The live show consisted of music composition played by orchestra and electronic layers with visuals. Visuals are based on rendered cymatics records blended with generative, digital layers based on algorithms reacting to sounds in real-time. ",
+      "slug": "creative/cymatics", 
+      "video":"",
+      "gif":"",
+      "stack": "Cinema 4d, Max MSP, Touchdesigner, After Effects, Processing, Resolume",
+      "link": "",
+      "date": "Mieczysław Karłowicz Philharmonic in Szczecin"
+    },
+    {
+      "id": "project20",
+      "title": "The Blob",
+      "description": "Blob is a reactive, geometric creature, programmed to visualise, breathe and interact. The Blob’s shape is shifting in reaction to data. Abilities of this project are widely extensive and multidirectional. Currently it is reacting to music and different sound properties – frequencies, beats, amplitude. Mechanics hidden inside are programmed to visualize by bulging the elastic body of the Blob.",
+      "slug": "creative/blob",
+      "video":"/project_details/blob_blk_wht.mov",
+      "gif":"",
+      "stack":"Arduino | Teensy | Makers Beam Mechanics | Electronics | Liquid latex work | Laser Cutting | 3D Printing",
+      "link": "",
+      "date": "Jutronauci 2018, Gazeta Wyborcza, Warsaw \n  Permutacje Festival, Konin \n TEDx Warsaw, Warsaw \n Gdynia Design Days 2019, Gdynia"
+    },
+    {
+      "id": "project21",
+      "title": "Visual-audio Concert - Positive Disintegration",
+      "description": "The visual-audio concert is a unique reversal of the common situation in which visuals are only a background or an addition to the musical layer. In order to emphasize the role of the image in the reception of music, we focused on conveying the concept as a story told through the image, narrated by the music. The concert deals with the topic of positive disintegration, i.e. the theory of mental health, which assumes that mental health is a dynamic mental process, not a state. Working with Teoniki Rozynek as a music composer, we tried to present various stages and levels of development that lead to the creation of a coherent, compact structure of personality traits corresponding to the harmony and internal balance of a human being. ",
+      "slug": "creative/positive_disintegration",
+      "video": "/rozgladanko.mp4",
+      "gif":"",
+      "stack": "Cinema 4d | Octane | Touchdesigner | After Effects | Resolume",
+      "link": "",
+      
+      "date": "Spatif Club Warsaw , December 2022 / Constant development"
+    },
+    {
+      "id": "project22",
+      "title": "The Galaxy Travel Agency",
+      "description":"The installation containing old control consoles from tv broadcast trucks, that we have rewired and resoldered with Arudino to act as a controller for the open source 'Space Engine' game - where users travel through the universe with the actual, real data. We have programmed and included premade missions and travels. Installation can serve as an educational tool for exploring the Universe or just as an entertainment.",
+      "slug": "creative/galaktyka",
+      "gif":"",
+      "video":"/project_details/galaktyka.mp4",
+      "stack": "Arduino | Space Engine | Processing | Circuit Bending",
+      "link": "",
+      "date": "Uroczysko Festival / Constant development since 2020"
+    },
+    {
+      "id": "project23",
+      "title": "The Blob Theatre Scenography",
+      "description": "Blob is the main scenography element in the theatre play – „Teraz każdy z Was jest Rzeczpospolitą” – played at Teatr Dramatyczny in Wałbrzych and Teatr Współczesny in Wroclaw.This much bigger version was created using  techniques discovered while working on the first  Blob. While adjusting them to different size and theatre needs. I had much fun with deeper exploration of the liquid latex capabilities. The theme was – filthy and organic. ",
+      "slug": "creative/blob-theatre",
+      "video":"/project_details/blob_teatr_light.mov",
+      "gif":"",
+      "stack":"Arduino | Trapezoidal screw | Liquid latex | WoodworksElectronics | Liquid latex work",
+      "link": "",
+      "date": "Teatr Dramatyczny Wałbrzych \n  Teatr Współpoczesny Wrocław"
+    },
+    {
+      "id": "project23",
+      "title": "The Box for Bulb Project",
+      "description": "DIY midi pedal controller. The Box takes 5 midi pedals and sends their signal through Arduino to the corresponding patch in Max MSP – controlling hacked christmas lights and piezzo microphones. ",
+      "slug": "creative/bulb-project",
+      "video":"",
+      "gif":"/project_details/kwartludium.png",
+      "stack":"Circuit Bending, Arduino, Electronics, Audioreactive, Max MSP, Interactive Installation, Laser Cutting, 3D Printing",
+      "link": "",
+      "date": "Unsound Festiwal 2019, Kraków  \n  Kwartludium – Roboty, Arduino i Game Over, Teatr Nowy Warsaw"
+    },
+    {
+      "id": "project23",
+      "title": "Kondensator Przepływu",
+      "description": "Audiovisual project, where everything is improvised and live generated. I work with two musicians and together we are creating a situation / experience that people can join in and sink into the world created. Every concert is unique, we shift and adjust what we do on scene to the current space, public and atmosphere. ",
+      "slug": "creative/kondensator_przeplywu",
+      "video":"/project_details/kondensator.mp4",
+      "gif":"",
+      "stack":"Live visual performance, Audioreactive, 3D Animations, Generative Visuals, Processing, Touchdesigner",
+      "link": "",
+      "date": "Among many: \n Patchlab Festival, Kraków  \n  Vorspiel CTM & Transmediale, Berlin \n Sanatorium Dźwięku, Sokołowsko, \n Revive Festival, Warsaw "
+    }, 
+    {
+      "id": "project24",
+      "title": "KEEN",
+      "description": "I have created a compositio of generative and rendered visuals for Joanna Duda’s first solo album. All songs are very extensive and different, some of them mainly performed on piano and some on the electronic setup. Just as the variety of sounds I have created variety of different visuals, which I mix together in the live performance. ",
+      "slug": "creative/keen",
+      "video":"/project_details/kolorowy_idzie2_1.mp4",
+      "gif":"",
+      "stack":"Live visual performance, Audioreactive, 3D Animations, Generative Visuals, Processing, Touchdesigner",
+      "link": "",
+      "date": "Spatif Club, Warsaw  \n  JazzJantar Festival, Gdańsk \n Świetlica Krytyki Politycznej, Warsaw "
+    }
+  
+]

@@ -8,7 +8,9 @@
     "@popperjs/core": "^2.11.6",
     "bootstrap": "^5.2.2",
     "gatsby": "^5.1.0",
+    "gatsby-cli": "^5.4.0",
     "gatsby-plugin-gatsby-cloud": "^5.1.0",
+    "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-image": "^3.1.0",
     "gatsby-plugin-manifest": "^5.1.0",
     "gatsby-plugin-offline": "^6.1.0",
@@ -16,17 +18,25 @@
     "gatsby-plugin-sharp": "^5.1.0",
     "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-source-filesystem": "^5.1.0",
+    "gatsby-transformer-json": "^5.4.0",
     "gatsby-transformer-sharp": "^5.1.0",
+    "paper": "^0.12.17",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-move-element": "^1.0.14",
     "react-responsive-masonry": "^2.1.7",
+    "react-simple-typewriter": "^5.0.1",
     "redux": "^4.2.0",
     "sass": "1.49.11",
+    "three": "^0.148.0",
     "video-react": "^0.16.0"
   },
   "devDependencies": {
-    "prettier": "2.5.1"
+    "kill-port": "^2.0.1",
+    "prettier": "2.5.1",
+    "watch": "^1.0.2"
   },
   "keywords": [
     "gatsby",

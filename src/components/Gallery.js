@@ -1,7 +1,7 @@
 import * as React from "react"
 import Tabs from "./Tabs";
 import Items from "./Items";
-import Data from "./data";
+import Data from "./Data";
 import { useState } from "react";
 function Gallery(){
 

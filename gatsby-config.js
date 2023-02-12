@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Boostrap 5 Sass Starter`,
-    description: `A simple bootstrap 5 and Sass starter for Gatsby. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@r-ichard`,
+    title: `Martyna Chojnacka's Portfolio`,
+    description: `Martyna Chojnacka's Portfolio based on gatsby bootstrap 5 starter.`,
+    author: `Martyna Chojnacka`,
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -42,6 +42,7 @@ module.exports = {
         display: 'swap'
       },
     },
+   
     
     {
       resolve: `gatsby-plugin-manifest`,
@@ -52,7 +53,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `standalone`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `static/favicon1.png`, 
       },
     },
     `gatsby-plugin-gatsby-cloud`,

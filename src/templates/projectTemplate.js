@@ -42,7 +42,7 @@ const ProjectTemplate = ({ data }) => {
       </div>
       <div className="col-md-5 project-data">
         <p>&#91; {project.stack} &#93;</p>
-        <p><a href="{project.link}">{project.link}</a> </p>
+        <p><a href={project.link}>{project.link}</a> </p>
         <p>{project.date}</p>
 
         <div className="back-btn">

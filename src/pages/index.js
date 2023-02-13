@@ -8,12 +8,12 @@ import { useTypewriter } from 'react-simple-typewriter'
 const IndexPage = ({ data }) => {
  const projects = data.allProjectsJson.edges
  const [hello] = useTypewriter({
-  words: ['Hello.', 'I am an actively experimenting'],
+  words: ['Hello.', 'I am actively experimenting', ''],
   loop: 3,
     onLoopDone: () => console.log(`loop completed after 3 runs.`)
   })
 const [text] = useTypewriter({
-  words: [' My name is Martyna. ',   'creative coder and artist,', 'constantly looking for new challenges'],
+  words: [' My name is Martyna. ',   ' creative coder and artist,', ' constantly looking for new challenges'],
   loop: 0,
   deleteSpeed:100,
 })

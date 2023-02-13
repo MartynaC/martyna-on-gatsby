@@ -9,8 +9,8 @@ const IndexPage = ({ data }) => {
  const projects = data.allProjectsJson.edges
  const [hello] = useTypewriter({
   words: ['Hello.', 'I am actively experimenting', ''],
-  loop: 3,
-    onLoopDone: () => console.log(`loop completed after 3 runs.`)
+  loop: 0,
+  deleteSpeed:100,
   })
 const [text] = useTypewriter({
   words: [' My name is Martyna. ',   ' creative coder and artist,', ' constantly looking for new challenges'],

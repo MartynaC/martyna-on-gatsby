@@ -32,7 +32,7 @@ const ProjectTemplate = ({ data }) => {
       </div>
       <div className="col-md-7">
       {project.gif.length > 0 && 
-      <img src={project.gif} className="img-fluid project-main" alt="Gif with a project content" style={{height:"100%"}}/>
+      <img src={project.gif} className="img-fluid project-main" alt="Gif with a project content" style={{height:"100%"}} autoPlay />
       }
       {project.video.length > 0 && 
       <video className="img-fluid" loop autoPlay={true} muted>

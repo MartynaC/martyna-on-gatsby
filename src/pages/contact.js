@@ -12,7 +12,7 @@ const ContactPage = () => (
             <h1>
             <strong>hello</strong>@martynachojnacka.com</h1>
             <h1>0048 577 083 564</h1>
-            <p>LINKEDIN INSTAGRAM VIMEO</p>
+            <p><a target="_blank" href="https://www.linkedin.com/in/martynachojnacka/">LINKEDIN</a> <a target="_blank" href="https://www.instagram.com/martyna_chojnacka/">INSTAGRAM</a> <a target="_blank" href="https://vimeo.com/user21520909">VIMEO</a></p>
 
             </div>
         

@@ -92,7 +92,7 @@ const dataArt =[
         image:"/strangerthings.jpg",
         title:"Stranger Things 4th Season Premiere After Party",
         description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-        stack:"Visual performance, Audioreactive",
+        stack:"Visual performance, Audioreactive VJ Set for Stranger Things 4th Season Premiere After Party on Orange Warsaw Festival.",
         category:"visual performance / generative",
         link:"/project/creative/stranger_things", 
     },

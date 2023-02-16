@@ -116,7 +116,7 @@ div.gradient-making {
 a.dropdown-item {
   color: #333;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 300;
     line-height: 25px;
     margin-left: -15px;
 }
@@ -124,7 +124,7 @@ a.dropdown-item {
   text-transform: uppercase;
     font-size: 20px;
     padding: 0px;
-    font-weight: 400;
+    font-weight: 300;
     letter-spacing: 1px;
 
 }
@@ -165,7 +165,7 @@ a.dropdown-item {
 .bottom-nav a {
   color: #333;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 300;
 }
 .bottom-nav li {
   position: relative;
@@ -465,6 +465,17 @@ img.project-main {
         padding-top: 20px;
         padding-bottom: 100px;
   }
+}
+div.contact-page {
+  div.row.page-description h1 {
+  font-size: 23px;
+  }
+  a {
+    text-decoration: none;
+  }
+}
+.about-page { 
+padding-bottom: 100px;
 }
 
 }

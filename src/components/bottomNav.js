@@ -37,9 +37,9 @@ const BottomNav = () => {
       <nav className="bottom-nav d-md-none">
         <ul>
           <div className="dropdown dropup" ref={dropdownRef}>
-            <button className="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Projects
-            </button>
+          <button className="btn dropdown-toggle" type="button" id="dropdownMenuButton">
+  Projects
+</button>
             <div className="dropdown-menu dropdown-menu-right dropdown-menu-up" aria-labelledby="dropdownMenuButton">
               <Link to="/art" className="dropdown-item">CREATIVE</Link>
               <Link to="/work" className="dropdown-item">COMMERCIAL</Link>

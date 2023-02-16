@@ -2,29 +2,8 @@ import React from "react"
 import PropTypes from "prop-types"
 
 export default function HTML(props) {
-  return (
-    <html {...props.htmlAttributes}>
-      <head>
-        <meta charSet="utf-8" />
-        <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        />
-        {props.headComponents}
-      </head>
-      <body {...props.bodyAttributes}>
-        {props.preBodyComponents}
-        <div
-          key={`body`}
-          id="___gatsby"
-          dangerouslySetInnerHTML={{ __html: props.body }}
-        />
-        {props.postBodyComponents}
-        <script
-  dangerouslySetInnerHTML={{
-    __html: `
-
+  const isDesktop = typeof window !== "undefined" && window.innerWidth >= 768;
+  const script = `
     var cv = document.createElement('canvas');
     var ctx = cv.getContext('2d');
     cv.width = 324;
@@ -60,9 +39,32 @@ export default function HTML(props) {
       var theta = Math.atan2(dy, dx);
       drawArrow(theta);
     };
-`
-  }}
-/>
+  `;
+
+  return (
+    <html {...props.htmlAttributes}>
+      <head>
+        <meta charSet="utf-8" />
+        <meta httpEquiv="x-ua-compatible" content="ie=edge" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        {props.headComponents}
+      </head>
+      <body {...props.bodyAttributes}>
+        {props.preBodyComponents}
+        <div
+          key={`body`}
+          id="___gatsby"
+          dangerouslySetInnerHTML={{ __html: props.body }}
+        />
+        {props.postBodyComponents}
+        {isDesktop && (
+          <script
+            dangerouslySetInnerHTML={{ __html: script }}
+          />
+        )}
       </body>
     </html>
   )
@@ -75,4 +77,4 @@ HTML.propTypes = {
   preBodyComponents: PropTypes.array,
   body: PropTypes.string,
   postBodyComponents: PropTypes.array,
-}
+};

@@ -233,7 +233,7 @@
     {
       "id": "project22",
       "title": "The Galaxy Travel Agency",
-      "description":"The installation containing old control consoles from tv broadcast trucks, that we have rewired and resoldered with Arudino to act as a controller for the open source 'Space Engine' game - where users travel through the universe with the actual, real data. We have programmed and included premade missions and travels. Installation can serve as an educational tool for exploring the Universe or just as an entertainment.",
+      "description":"The installation containing old control consoles from tv broadcast trucks, that we have rewired and resoldered with Arduino to act as a controller for the open source 'Space Engine' game - where users travel through the universe with the actual, real data. We have programmed and included premade missions and travels. Installation can serve as an educational tool for exploring the Universe or just as an entertainment.",
       "slug": "creative/galaktyka",
       "gif":"",
       "video":"/project_details/galaktyka.mp4",

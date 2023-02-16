@@ -435,6 +435,22 @@ img.project-main {
   img.logo {
     float: right;
   }
+  .fixed-top {
+    top: 20px;
+    left: 30px;
+  }
+  .mobile-logo {
+    max-width: 23px;
+  }
+  .absolute-top{
+    left:30px;
+    top:10px;
+    position: absolute;
+   p {
+    font-family: "Nunito Sans";
+    font-size: 12px;
+  }
+  }
   div.row.page-description {
     margin-top: 0px;
   }
@@ -477,5 +493,7 @@ div.contact-page {
 .about-page { 
 padding-bottom: 100px;
 }
-
+div.creative div.row.page-description h1, div.creative div.row.page-description .h1, div.commercial div.row.page-description h1 {
+  font-size: 30px
+}
 }

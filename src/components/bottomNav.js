@@ -36,7 +36,9 @@ const BottomNav = () => {
 
     return (
         <nav className="bottom-nav d-md-none">
+           
             <ul>
+            <a href="/"><img src='/tetha.svg' alt='Tetha logo' className='mobile-logo' /></a>
                 <div className="dropdown dropup" ref={dropdownRef}>
                     <button className="btn dropdown-toggle" type="button" id="dropdownMenuButton">
                         Projects

@@ -23,6 +23,10 @@ const Layout = ({ children }) => {
         </div>
       </div>
       <div className="d-md-none">
+        <div className="absolute-top">
+        <p>Martyna Chojnacka <br></br>
+    Web Developer | Creative Coder | Visual Artist</p>
+          </div>
         <div className="fixed-bottom">
           <BottomNav isOpen={isOpen} toggleMenu={toggleMenu} />
         </div>

@@ -26,40 +26,40 @@ export default function HTML(props) {
     __html: `
 
     var cv = document.createElement('canvas');
-var ctx = cv.getContext('2d');
-cv.width = 324;
-cv.height = 168;
-cv.classList.add("logo-canvas");
-document.body.appendChild(cv);
-
-var centerX = 60, centerY = 50;
-
-var arrow = new Image();
-arrow.src = '/tetha.svg';
-arrow.classList.add("hidden-link");
-
-function drawArrow(angle) {
-  ctx.clearRect(0, 0, cv.width, cv.height);
-  ctx.save();
-  ctx.translate(centerX, centerY);
-  ctx.rotate(-Math.PI / 2);
-  ctx.rotate(angle);
-  ctx.drawImage(arrow, -arrow.width / 2, -arrow.height / 2);
-  ctx.restore();
-}
-
-document.onmousemove = function(e) {
-  var dx = e.pageX - centerX;
-  var dy = e.pageY - centerY;
-  var theta = Math.atan2(dy, dx);
-  drawArrow(theta);
-};
-
-var link = document.createElement("a");
-link.href = "/";
-link.appendChild(arrow);
-document.body.appendChild(link);
+    var ctx = cv.getContext('2d');
+    cv.width = 324;
+    cv.height = 168;
+    cv.classList.add("logo-canvas");
+    document.body.appendChild(cv);
     
+    var centerX = 60, centerY = 50;
+    
+    var arrow = new Image();
+    arrow.onload = function() {
+      var link = document.createElement("a");
+      link.href = "/";
+      link.appendChild(arrow);
+      document.body.appendChild(link);
+    }
+    arrow.src = '/tetha.svg';
+    arrow.classList.add("hidden-link");
+    
+    function drawArrow(angle) {
+      ctx.clearRect(0, 0, cv.width, cv.height);
+      ctx.save();
+      ctx.translate(centerX, centerY);
+      ctx.rotate(-Math.PI / 2);
+      ctx.rotate(angle);
+      ctx.drawImage(arrow, -arrow.width / 2, -arrow.height / 2);
+      ctx.restore();
+    }
+    
+    document.onmousemove = function(e) {
+      var dx = e.pageX - centerX;
+      var dy = e.pageY - centerY;
+      var theta = Math.atan2(dy, dx);
+      drawArrow(theta);
+    };
 `
   }}
 />

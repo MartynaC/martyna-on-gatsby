@@ -6,7 +6,7 @@ function Items({data}){
     return (
         <div className="row image-grid">
           <ResponsiveMasonry
-            columnsCountBreakPoints={{350: 2, 350: 3, 900: 2}}
+            columnsCountBreakPoints={{ 0: 1, 700: 2, 900: 2 }}
             >
                   <Masonry>
         {

@@ -106,7 +106,7 @@ const dataArt =[
     },
     {
         id:12,
-        image:"",
+        image:"/computer_science.png",
         title:"Computer Science - ER4SE",
         description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
         category:"3d animation",

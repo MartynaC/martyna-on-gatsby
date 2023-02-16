@@ -13,28 +13,6 @@ const data =[
        
     },
     {
-        id:2,
-        image:"/dzialzagraniczny.png",
-        title:"Dział zagraniczny",
-        role:"developer, project manager", 
-        description:"The platform for podcasts and articles about foreign affairs. ",
-        category:"wordpress cms",
-        link:"/project/commercial/dzial-zagraniczny", 
-        stack:"#custom-wordpress",
-        gif: "/project_details/dzial.gif",
-    },
-    {
-        id:3,
-        image:"/kissdentalcare.png",
-        title:"Kiss Dental Care",
-        role:"developer, project manager", 
-        stack:"#custom-wordpress",
-        description:"The website for innovative dental clinic.",
-        category:"wordpress cms",
-        link:"/project/commercial/kiss-dental-care", 
-        gif: "/project_details/kiss.gif",
-    },
-    {
         id:4,
         image:"/exlibris.png",
         title:"Exlibris",
@@ -57,6 +35,40 @@ const data =[
        
     },
     {
+        id:9,
+        image:"/lsf.png",
+        title:"Leica Street Photo",
+        role:"developer, competition administrator", 
+        stack:"#custom-wordpress #php #acf #jquery #scss",
+        description:"A competition website for Leica Street Photo. Tens of thousands of photos get submitted every year.",
+        category:"wordpress cms",
+        link: "/project/commercial/leica-street-photo",
+    },
+    {
+        id:2,
+        image:"/dzialzagraniczny.png",
+        title:"Dział zagraniczny",
+        role:"developer, project manager", 
+        description:"The platform for podcasts and articles about foreign affairs. ",
+        category:"wordpress cms",
+        link:"/project/commercial/dzial-zagraniczny", 
+        stack:"#custom-wordpress",
+        gif: "/project_details/dzial.gif",
+    },
+    {
+        id:3,
+        image:"/kissdentalcare.png",
+        title:"Kiss Dental Care",
+        role:"developer, project manager", 
+        stack:"#custom-wordpress",
+        description:"The website for innovative dental clinic.",
+        category:"wordpress cms",
+        link:"/project/commercial/kiss-dental-care", 
+        gif: "/project_details/kiss.gif",
+    },
+
+ 
+    {
         id:6,
         image:"/uzdrowisko.png",
         title:"Uzdrowisko",
@@ -65,6 +77,16 @@ const data =[
         description:"A simple portfolio for yoga teacher and chinese medicine practitioner.",
         category:"react js",
         link:"/project/commercial/uzdrowisko", 
+       
+    },
+    {
+        id:17,
+        image:"/metamorfozy.png",
+        title:"Metamorfozy",
+        role:"developer, project manager", 
+        stack:"#android-studio #java #interactive-kiosk",
+        description:"Application made for Touchmonitor found in the White House of Łazienki Królewskie Park. ",
+        category:"applications",
        
     },
     {
@@ -77,6 +99,7 @@ const data =[
         category:"e-commerce",
         link:"/project/commercial/warsaw-concept-store", 
     },
+    
     {
         id:8,
         image:"/kisi.png",
@@ -89,15 +112,36 @@ const data =[
        
     },
     {
-        id:9,
-        image:"/lsf.png",
-        title:"Leica Street Photo",
-        role:"developer, competition administrator", 
-        stack:"#custom-wordpress #php #acf #jquery #scss",
-        description:"A competition website for Leica Street Photo. Tens of thousands of photos get submitted every year.",
+        id:21,
+        image:"/digital_festival.png",
+        role:"developer", 
+        stack:"#custom-wordpress, #php, #javascript, #jquery, #scss, #acf",
+        title:"Digital Festival",
+        description:"A website for Digital Festival, containing schedules, news, podcasts, event descriptions and more. ",
         category:"wordpress cms",
-        link: "/project/commercial/leica-street-photo",
+       
     },
+    {
+        id:22,
+        image:"/digital_ars.png",
+        role:"developer", 
+        stack:"#custom-wordpress, #php, #javascript, #jquery, #scss, #acf",
+        title:"Digital Ars",
+        description:"A website for Digital Ars Competition - where contenstasts can upload their projects directly related with AI and Art.",
+        category:"wordpress cms",
+       
+    },
+    {
+        id:22,
+        image:"/edd.png",
+        role:"developer", 
+        stack:"#custom-wordpress, #php, #javascript, #jquery, #scss, #acf",
+        title:"European Digital Days",
+        description:"A website for European Digital Days - focused around digitalization and AI.",
+        category:"wordpress cms",
+       
+    },
+  
     {
         id:10,
         image:"/orenda.png",
@@ -176,16 +220,6 @@ const data =[
        
     },
     {
-        id:17,
-        image:"/metamorfozy.png",
-        title:"Metamorfozy",
-        role:"developer, project manager", 
-        stack:"#android-studio #java #interactive-kiosk",
-        description:"Application made for Touchmonitor found in the White House of Łazienki Królewskie Park. ",
-        category:"applications",
-       
-    },
-    {
         id:18,
         image:"/polish_inventors.png",
         role:"developer", 
@@ -215,6 +249,7 @@ const data =[
         category:"applications",
        
     },
+
 ]
 
 export default data;

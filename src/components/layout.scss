@@ -124,7 +124,7 @@ a.dropdown-item {
   text-transform: uppercase;
     font-size: 20px;
     padding: 0px;
-
+    font-weight: 400;
     letter-spacing: 1px;
 
 }
@@ -445,5 +445,26 @@ img.project-main {
   div.welcome {
     padding-top: 0px;
     height: 80px;
+    h1 {
+      font-size: 23px;
+
+    }
   }
+  div.tags-list {
+    display: contents;
+    button {
+    margin-bottom: 10px;
+    }
+  }
+  div.container.commercial,  div.container.creative {
+    padding-bottom: 100px;
+  }
+  div.row.page-description {
+  div.project-data {
+         padding-left: 0px;
+        padding-top: 20px;
+        padding-bottom: 100px;
+  }
+}
+
 }

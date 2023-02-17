@@ -4,7 +4,8 @@ import Layout from "../components/layout"
 import { Link } from "gatsby"
 import { useLocation } from "@reach/router"
 import ReactPlayer from "react-player"
-import GifPlayer from "react-gif-player"
+
+
 
 const ProjectTemplate = ({ data }) => {
   const project = data.projectsJson
@@ -22,8 +23,8 @@ const ProjectTemplate = ({ data }) => {
 
 
   const Player = typeof window !== "undefined" ? require("react-player") : null
-  const GifPlayer = typeof window !== "undefined" ? require("react-gif-player") : null
-  
+
+
   return (
     <Layout>
       <div className="container ">
@@ -35,9 +36,7 @@ const ProjectTemplate = ({ data }) => {
             </div>
           </div>
           <div className="col-md-7">
-            {project.gif.length > 0 && (
-              <GifPlayer gif={project.gif} autoplay={true} className="img-fluid project-main" />
-            )}
+          
             {project.video.length > 0 && (
               <ReactPlayer
                 url={project.video}

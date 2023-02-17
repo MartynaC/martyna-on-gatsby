@@ -23,5 +23,5 @@ const ContactPage = () => (
 export default ContactPage
 
 export const Head = () => (
-    <Seo title="Contact page" />
+    <Seo title="Contact me" />
 )

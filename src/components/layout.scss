@@ -64,10 +64,10 @@ div.project-short-desc {
   position: absolute;
   border: 1px solid #000;
   width: 97%;
-  display: none;
   animation-name: description;
   animation-duration: 300ms;
   height: 100%;
+  display: none;
   h3 {
     font-size: 16px;
     font-weight: 200;
@@ -118,14 +118,15 @@ a.dropdown-item {
     text-decoration: none;
     font-weight: 300;
     line-height: 25px;
-    margin-left: -15px;
+    padding-left: 30px;
 }
 .btn.dropdown-toggle {
   text-transform: uppercase;
-    font-size: 20px;
+    font-size: 18px;
     padding: 0px;
     font-weight: 300;
     letter-spacing: 1px;
+    margin-left:30px;
 
 }
 .dropup .dropdown-toggle::after {
@@ -138,7 +139,7 @@ a.dropdown-item {
 }
 
 .bottom-nav ul {
-  line-height: 50px;
+  line-height: 30px;
   display: flex;
   justify-content: space-between;
   list-style: none;
@@ -146,17 +147,16 @@ a.dropdown-item {
   padding: 0.5rem 0;
   font-family: 'Nunito Sans';
   /* padding-bottom: 30px; */
-  font-size: 30px;
   background-color: #ffeaea;
   text-transform: uppercase;
   border-top: 1px solid black;
-  margin-left: 30px;
+
   padding-right: 10px;
   letter-spacing: 1px;
 }
 
 .bottom-nav li {
-  font-size: 20px;
+  font-size: 18px;
   margin-top: 3px;
   font-weight: bold;
   letter-spacing: 1px;
@@ -173,13 +173,14 @@ a.dropdown-item {
 
 .bottom-nav .dropdown-menu {
   top: auto;
-  bottom: 100%;
-  margin-bottom: 5px;
-  width: 93vw;
-  background-color: #ffeaea;
-  border: none;
-  border-top: 1px solid black;
-  border-radius: 0px;
+    bottom: 100%;
+    margin-bottom: 0px;
+    width: 100vw;
+    padding-top: 15px;
+    background-color: #ffeaea;
+    border: none;
+    border-top: 1px solid black;
+    border-radius: 0px;
 }
 
 
@@ -513,5 +514,25 @@ div.creative div.row.page-description h1, div.creative div.row.page-description 
 }
 video.img-fluid, img.img-fluid.project-main {
  padding-right: 10px;
+}
+div.project-short-desc {
+  background-color: #ffeaea;
+  color: #000;
+  font-family: "Nunito Sans";
+  font-weight: 200;
+  padding: 20px;
+  padding-bottom: 10px;
+  opacity: 1;
+  bottom: 0px;
+  z-index: 9999;
+  position: relative;
+  border: 1px solid #000;
+  border-top: 0px;
+  width: 100%;
+  animation-name: description;
+  animation-duration: 300ms;
+  height: 100%;
+  /* opacity: 0.9; */
+   display: block;
 }
 }

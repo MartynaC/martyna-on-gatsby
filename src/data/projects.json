@@ -201,7 +201,7 @@
       "title": "Cymatics",
       "description": "The audiovisual project is based on live-recorded materials, where I used many different liquids reacting to sound frequencies. The live show consisted of music composition played by orchestra and electronic layers with visuals. Visuals are based on rendered cymatics records blended with generative, digital layers based on algorithms reacting to sounds in real-time. ",
       "slug": "creative/cymatics", 
-      "video":"/cymatics.mp4",
+      "video":"/cymatics_correct.mp4",
       "gif":"",
       "stack": "Cinema 4d, Max MSP, Touchdesigner, After Effects, Processing, Resolume",
       "link": "https://www.youtube.com/watch?v=Fz1n9oj3VnY&t=1272s",
@@ -313,7 +313,7 @@
       "description": "A website for Digital Festival - initiative foucsed around digitalisation. The page contains schedules, news, podcasts, videos, streams, event descriptions and more.",
       "slug": "commercial/digital_festival",
       "video":"https://2021.digitalfestival.pl/",
-      "gif":"",
+      "gif":"/digital_festival.gif",
       "stack":"Custom Wordpress, PHP, Javascript, Jquery, Scss, ACF",
       "link": "",
       "date": "2021 "
@@ -325,7 +325,7 @@
       "description": "A website for Digital Ars Competition - where contenstasts can upload their projects directly related with AI and Art.",
       "slug": "commercial/digital_ars",
       "video":"https://digitalars.pl/",
-      "gif":"",
+      "gif":"/digital_ars.gif",
       "stack":"Custom Wordpress, PHP, Javascript, Jquery, Scss, ACF",
       "link": "",
       "date": "2021 "

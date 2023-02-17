@@ -31,20 +31,20 @@ const ProjectTemplate = ({ data }) => {
             </div>
           </div>
           <div className="col-md-7">
-  {project.gif.length > 0 && (
-    <GifPlayer gif={project.gif} autoplay={true} className="img-fluid project-main" />
-  )}
-  {project.video.length > 0 && (
-    <ReactPlayer
-      url={project.video}
-      playing={true}
-      loop={true}
-      muted={true}
-      playsinline={true}
-      className="img-fluid"
-    />
-  )}
-</div>
+            {project.gif.length > 0 && (
+              <GifPlayer gif={project.gif} autoplay={true} className="img-fluid project-main" />
+            )}
+            {project.video.length > 0 && (
+              <ReactPlayer
+                url={project.video}
+                playing={true}
+                loop={true}
+                muted={true}
+                playsinline={true}
+                className="img-fluid"
+              />
+            )}
+          </div>
           <div className="col-md-5 project-data">
             <p>&#91; {project.stack} &#93;</p>
             <p>

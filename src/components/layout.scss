@@ -124,7 +124,7 @@ a.dropdown-item {
   text-transform: uppercase;
     font-size: 18px;
     padding: 0px;
-    padding-top: 2px;
+    padding-top: 4px;
     font-weight: 300;
     letter-spacing: 1px;
     margin-left:30px;
@@ -525,7 +525,7 @@ video.img-fluid, img.img-fluid.project-main {
  padding-right: 10px;
 }
 div.img-fluid.project-main  {
-  padding-right: 10px;
+  padding-right: 10px!important;
 }
 div.project-short-desc {
   background-color: #ffeaea;

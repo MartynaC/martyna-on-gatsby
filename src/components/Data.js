@@ -87,6 +87,7 @@ const data =[
         stack:"#android-studio #java #interactive-kiosk",
         description:"Application made for Touchmonitor found in the White House of Łazienki Królewskie Park. ",
         category:"applications",
+        link:"/project/commercial/metamorfozy", 
        
     },
     {
@@ -250,7 +251,9 @@ const data =[
         description:"An interactive e-book for children.  I was responsible for programming, interaction and animations. ",
         category:"applications",
        
-    },
+    }
+    
+
 
 ]
 

@@ -47,6 +47,9 @@ const ProjectTemplate = ({ data }) => {
                 className="img-fluid project-main"
               />
             )}
+             {project.gif.length > 0 && (
+              <img src={project.gif} className="img-fluid project-main" />
+                )}
           </div>
           <div className="col-md-5 project-data">
             <p>&#91; {project.stack} &#93;</p>

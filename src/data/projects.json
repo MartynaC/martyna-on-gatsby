@@ -169,7 +169,7 @@
       "title": "6X7 Proffesional Photography",
       "description": "The shop for a company that sells film cameras and distributes Leica in Poland. Required customizing the WooCommerce plugin and creating a custom plugin for the company's needs.",
       "slug": "commercial/6x7",
-      "video":"/project_video/6x7store.mp4",
+      "video":"/project_videos/6x7store.mp4",
       "gif":"",
       "stack": "Custom Wordpress, CSS, Javascript, ACF, PHP, WooCommerce",
       "link": "https://6X7.com.pl/",
@@ -181,7 +181,7 @@
       "description": "The Oaktopus Records Label website, where user can listen to the newest releases and find information about the label and artists. ",
       "slug": "commercial/oaktopus-records",
     
-      "video":"/project_details/oaktopus.mp4",
+      "video":"/project_videos/oaktopus.mp4",
       "gif":"",
       "stack": "Custom Wordpress, CSS, Javascript",
       "link": "https://www.oaktopusrecords.com/",
@@ -307,22 +307,22 @@
       "title": "Digital Festival",
       "description": "A website for Digital Festival - initiative foucsed around digitalisation. The page contains schedules, news, podcasts, videos, streams, event descriptions and more.",
       "slug": "commercial/digital_festival",
-      "video":"https://2021.digitalfestival.pl/",
-      "gif":"/digital_festival.gif",
+      "video":"",
+      "gif":"",
       "stack":"Custom Wordpress, PHP, Javascript, Jquery, Scss, ACF",
-      "link": "",
+      "link": "https://2021.digitalfestival.pl/",
       "date": "2021 "
     },
 
     {
-      "id": "project28",
+      "id": "project29",
       "title": "Digital Ars",
       "description": "A website for Digital Ars Competition - where contenstasts can upload their projects directly related with AI and Art.",
       "slug": "commercial/digital_ars",
-      "video":"https://digitalars.pl/",
-      "gif":"/digital_ars.gif",
+      "video":"project_videos/digital_ars.mp4",
+      "gif":"",
       "stack":"Custom Wordpress, PHP, Javascript, Jquery, Scss, ACF",
-      "link": "",
+      "link": "https://digitalars.pl/",
       "date": "2021 "
     },
 
@@ -331,12 +331,24 @@
       "title": "European Digital Days",
       "description": "A website for European Digital Days - focused around digitalization and AI.",
       "slug": "commercial/edd",
-      "video":"https://vimeo.com/manage/videos/221449408",
+      "video":"",
       "gif":"/edd.gif",
+      "stack":"Custom Wordpress, Javascript, Jquery",
+      "link": "https://europeandigitaldays.eu/",
+      "date": "2021 "
+    },
+    {
+      "id": "project30",
+      "title": "Metamorfozy",
+      "description": "Application made for Touchmonitor found in the White House of Łazienki Królewskie Park. ",
+      "slug": "commercial/metamorfozy",
+      "video":"",
+      "gif":"/metamorfozy.png",
       "stack":"Custom Wordpress, Javascript, Jquery",
       "link": "",
       "date": "2021 "
     }
+
    
 
   

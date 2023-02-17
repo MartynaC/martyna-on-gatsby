@@ -16,10 +16,10 @@ const data =[
         id:4,
         image:"/exlibris.png",
         title:"Exlibris",
-        role:"web application with customised files generator", 
+        role:"", 
         stack:"#html #php #javascript #scss",
         link:"/project/commercial/exlibris", 
-        description:"The project for Musuem Łazienki Królewskie, where the user can generate his own custom exlibris for books",
+        description:"Web application with customised files generator for Musuem Łazienki Królewskie.",
         category:"applications",
        
     },
@@ -29,7 +29,7 @@ const data =[
         title:"Leica Store Warsaw",
         role:"developer, e-commerce administrator", 
         stack:"#custom-wordpress #php #acf #jquery #scss",
-        description:"A store for Leica Store Warsaw - that distributes Leica cameras and lenses in Poland and runs workshops for photographers as well as Leica Gallery.",
+        description:"E-coomerce store for Leica Store Warsaw. ",
         category:"e-commerce",
         link:"/project/commercial/leica-store-warsaw", 
        
@@ -40,9 +40,20 @@ const data =[
         title:"Leica Street Photo",
         role:"developer, competition administrator", 
         stack:"#custom-wordpress #php #acf #jquery #scss",
-        description:"A competition website for Leica Street Photo. Tens of thousands of photos get submitted every year.",
+        description:"A competition website for Leica Street Photo. ",
         category:"wordpress cms",
         link: "/project/commercial/leica-street-photo",
+    },
+
+    {
+        id:29,
+        image:"/martyna-page.png",
+        title:"THIS WEBSITE",
+        role:"developer, competition administrator", 
+        stack:"#gatsby #gatsby-cloud #reactjs #scss #javascript",
+        description:"The wesbite you are browsing right now. ",
+        category:"react js",
+        link: "/project/commercial/my-portofolio",
     },
     {
         id:2,
@@ -119,6 +130,7 @@ const data =[
         title:"Digital Festival",
         description:"A website for Digital Festival, containing schedules, news, podcasts, event descriptions and more. ",
         category:"wordpress cms",
+        link: "/project/commercial/digital_festival",
        
     },
     {
@@ -129,6 +141,7 @@ const data =[
         title:"Digital Ars",
         description:"A website for Digital Ars Competition - where contenstasts can upload their projects directly related with AI and Art.",
         category:"wordpress cms",
+        link: "/project/commercial/digital_ars",
        
     },
     {
@@ -139,6 +152,7 @@ const data =[
         title:"European Digital Days",
         description:"A website for European Digital Days - focused around digitalization and AI.",
         category:"wordpress cms",
+        link: "/project/commercial/edd",
        
     },
   

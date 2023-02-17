@@ -13,7 +13,7 @@ function Items({data}){
                 <Masonry>
         {
           data.map((value)=>{
-           const {image, title, link, role, stack } = value;
+           const {image, title, link, role, stack, description } = value;
            return (
        
              <div className="grid-img">
@@ -24,7 +24,7 @@ function Items({data}){
                 <div className="project-short-desc ">  
                  <h3>{title}</h3>
                  <p>{stack}</p>
-                 <p>{role}</p>
+                 <p>{description}</p>
                  </div>
          
                  </a>

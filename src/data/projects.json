@@ -30,7 +30,7 @@
       "slug": "commercial/dzial-zagraniczny",
       "stack": "Wordpress | HTML5 | SCSS | Javascript",
       "video":"/project_videos/dzialzagraniczny.mp4",
-    "gif": "",
+      "gif": "",
       "link": "https://dzialzagraniczny.pl/",
       "date": "2022"
     },
@@ -53,8 +53,8 @@
     
       "stack": "Wordpress | HTML5 | SCSS | Javascript",
       "link": "https://leicastore.pl/",
-  "video":"/project_videos/Leicastore.mp4",
-"gif":"",
+      "video":"/project_videos/Leicastore.mp4",
+      "gif":"",
       "date": "2021"
     },
     {
@@ -62,8 +62,8 @@
       "title": "Warsaw Concept Store",
       "description": "The online store for Warsaw Concept Store - a Warsaw based boutique with luxury products from Polish designers. I am responsible for the development and constant maintenance of this store since 2018.",
       "slug": "commercial/warsaw-concept-store",
-  "video":"",
-"gif": "/project_details/WCS.mp4",
+      "video":"",
+      "gif": "/project_details/WCS.mp4",
     
       "stack": "Wordpress, HTML5, SCSS, Javascript",
       "link": "https://warsawconceptstore.pl/",
@@ -74,9 +74,8 @@
       "title": "Leica Street Photo",
       "description": "A competition website for Leica Street Photo. Tens of thousands of photos get submitted every year.",
       "slug": "commercial/leica-street-photo",
-  "video":"",
-"gif": "/project_details/lsf.gif",
-    
+      "video":"/project_details/lsf.mp4",
+      "gif": "",
       "stack": "Wordpress, HTML5, SCSS, Javascript",
       "link": "https://leicastreetphoto.pl/",
       "date": "2020, 2021, 2022"
@@ -88,8 +87,8 @@
       "description": "The simple portfolio page for yoga teacher and chinese medicine practitioner, created with Wordpress and Reactpress.",
       "slug": "commercial/uzdrowisko",
     
-  "video":"",
-"gif":"/project_details/uzdrowisko..gif",
+      "video":"",
+      "gif":"/project_details/uzdrowisko..gif",
       "stack": "React JS, Reactpress, Wordpress, HTML5, SCSS, ",
       "link": "https://uzdrowisko-akupunktura.pl/",
       "date": "2022"
@@ -98,10 +97,9 @@
       "id": "project10",
       "title": "Kisi Kisi",
       "description": "The simple website with nice animations for Kisi-Kisi - a family run company that sells beetroot kvas. The user can find information about the beetroot drink and check where to refill or buy bottles.",
-      "slug": "commercial/kisi-kisi",
-    
-  "video":"",
-"gif":"/project_details/kisi.gif",
+      "slug": "commercial/kisi-kisi", 
+      "video":"/project_videos/kisi.mp4",
+      "gif":"",
       "stack": "Custom Wordpress, CSS, Javascript, Lottie",
       "link": "https://kisi-kisi.pl/",
       "date": "2022"
@@ -112,8 +110,8 @@
       "description": "The portal with news about fashion industry and job offers with company and freelancer profiles. Companies can post their jobs and get evaluated by their employers, freelancers can find jobs and users can read news from fashion industry. ",
       "slug": "commercial/fashion-biznes",
     
-  "video":"",
-"gif":"/project_details/fashion.gif",
+  "video":"/project_videos/fashion.mp4",
+"gif":"",
       "stack": "Custom Wordpress, ACF, PHP, CSS, Javascript,",
       "link": "https://fashionbiznes.pl/",
       "date": "2021"
@@ -124,8 +122,8 @@
       "description": "The Garden designer portfolio website. ",
       "slug": "commercial/orenda-ogrody",
     
-  "video":"",
-"gif":"/project_details/orenda.gif",
+      "video":"/project_videos/orenda.mp4",
+      "gif":"",
       "stack": "Custom Wordpress, CSS, Javascript,",
       "link": "https://procownia-orenda.pl/",
       "date": "2020"
@@ -136,8 +134,8 @@
       "description": "The simple photographer's portfolio website, which showcases his photos, books and projects. ", 
       "slug": "commercial/michal-luczak",
     
-  "video":"",
-"gif":"/project_details/michalluczak.gif",
+      "video":"/project_videos/michalluczak.mp4",
+      "gif":"",
       "stack": "Custom Wordpress, CSS, Javascript,",
       "link": "http://michal-luczak.com/",
       "date": "2019"
@@ -148,8 +146,8 @@
       "description": "The simple photographer's portfolio website, which showcases his photos, books and projects. ", 
       "slug": "commercial/jan-brykczynski",
     
-  "video":"",
-"gif":"/project_details/janbrykczynski.gif",
+      "video":"/project_videos/janbrykczynski.mp4",
+      "gif":"",
       "stack": "Custom Wordpress, CSS, Javascript,",
       "link": "https://janbrykczynski.com/",
       "date": "2020"
@@ -184,8 +182,8 @@
       "description": "The Oaktopus Records Label website, where user can listen to the newest releases and find information about the label and artists. ",
       "slug": "commercial/oaktopus-records",
     
-  "video":"",
-"gif":"/project_details/oaktopus.gif",
+      "video":"/project_details/oaktopus.mp4",
+      "gif":"",
       "stack": "Custom Wordpress, CSS, Javascript",
       "link": "https://www.oaktopusrecords.com/",
       "date": "2018"
@@ -210,7 +208,7 @@
       "title": "The Blob",
       "description": "Blob is a reactive, geometric creature, programmed to visualise, breathe and interact. The Blob’s shape is shifting in reaction to data. Abilities of this project are widely extensive and multidirectional. Currently it is reacting to music and different sound properties – frequencies, beats, amplitude. Mechanics hidden inside are programmed to visualize by bulging the elastic body of the Blob.",
       "slug": "creative/blob",
-      "video":"/project_details/blob_blk_wht.mov",
+      "video":"/project_videos/blob_blk_wht.mp4",
       "gif":"",
       "stack":"Arduino | Teensy | Makers Beam Mechanics | Electronics | Liquid latex work | Laser Cutting | 3D Printing",
       "link": "",

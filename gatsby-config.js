@@ -1,7 +1,5 @@
 module.exports = {
-  flags: {
-    DEV_SSR: true,
-   },
+
   siteMetadata: {
     title: `Martyna Chojnacka's Portfolio`,
     description: `Martyna Chojnacka's Portfolio based on gatsby bootstrap 5 starter.`,

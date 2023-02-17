@@ -62,8 +62,8 @@
       "title": "Warsaw Concept Store",
       "description": "The online store for Warsaw Concept Store - a Warsaw based boutique with luxury products from Polish designers. I am responsible for the development and constant maintenance of this store since 2018.",
       "slug": "commercial/warsaw-concept-store",
-      "video":"",
-      "gif": "/project_details/WCS.mp4",
+      "video":"/project_videos/WCS.mp4",
+      "gif": "",
     
       "stack": "Wordpress, HTML5, SCSS, Javascript",
       "link": "https://warsawconceptstore.pl/",
@@ -74,7 +74,7 @@
       "title": "Leica Street Photo",
       "description": "A competition website for Leica Street Photo. Tens of thousands of photos get submitted every year.",
       "slug": "commercial/leica-street-photo",
-      "video":"/project_details/lsf.mp4",
+      "video":"/project_videos/lsf.mp4",
       "gif": "",
       "stack": "Wordpress, HTML5, SCSS, Javascript",
       "link": "https://leicastreetphoto.pl/",
@@ -87,8 +87,8 @@
       "description": "The simple portfolio page for yoga teacher and chinese medicine practitioner, created with Wordpress and Reactpress.",
       "slug": "commercial/uzdrowisko",
     
-      "video":"",
-      "gif":"/project_details/uzdrowisko..gif",
+      "video":"/project_videos/uzdrowisko.mp4",
+      "gif":"",
       "stack": "React JS, Reactpress, Wordpress, HTML5, SCSS, ",
       "link": "https://uzdrowisko-akupunktura.pl/",
       "date": "2022"
@@ -158,8 +158,8 @@
       "description": "Fashion designer and clothing brand portfolio and showcase website. ",
       "slug": "commercial/zankru",
     
-  "video":"",
-"gif":"/project_details/zankru.gif",
+      "video":"/project_videos/zankru.mp4",
+      "gif":"",
       "stack": "Custom Wordpress, CSS, Javascript,",
       "link": "https://zankru.com/",
       "date": "2018"
@@ -169,9 +169,8 @@
       "title": "6X7 Proffesional Photography",
       "description": "The shop for a company that sells film cameras and distributes Leica in Poland. Required customizing the WooCommerce plugin and creating a custom plugin for the company's needs.",
       "slug": "commercial/6x7",
-    
-  "video":"",
-"gif":"/project_details/6x7store.gif",
+      "video":"/project_video/6x7store.mp4",
+      "gif":"",
       "stack": "Custom Wordpress, CSS, Javascript, ACF, PHP, WooCommerce",
       "link": "https://6X7.com.pl/",
       "date": "2021"
@@ -242,7 +241,7 @@
       "title": "The Blob Theatre Scenography",
       "description": "Blob is the main scenography element in the theatre play – „Teraz każdy z Was jest Rzeczpospolitą” – played at Teatr Dramatyczny in Wałbrzych and Teatr Współczesny in Wroclaw.This much bigger version was created using  techniques discovered while working on the first  Blob. While adjusting them to different size and theatre needs. I had much fun with deeper exploration of the liquid latex capabilities. The theme was – filthy and organic. ",
       "slug": "creative/blob-theatre",
-      "video":"/project_details/blob_teatr_light.mov",
+      "video":"/project_videos/blob_teatr_light.mp4",
       "gif":"",
       "stack":"Arduino | Trapezoidal screw | Liquid latex | WoodworksElectronics | Liquid latex work",
       "link": "",

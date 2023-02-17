@@ -21,7 +21,7 @@ function Items({data}){
                 <a href={link}>
           
                 <img src={image} className="img-fluid" style={{height:"100%"}}/>
-                <div className="project-short-desc d-none d-md-block">  
+                <div className="project-short-desc ">  
                  <h3>{title}</h3>
                  <p>{stack}</p>
                  <p>{role}</p>

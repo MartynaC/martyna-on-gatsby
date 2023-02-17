@@ -419,11 +419,20 @@ img.project-main {
 
 }
 
+/* CONTACT PAGE */
+
+div.contact-page {
+  a {
+    text-decoration: none;
+  }
+}
+
 /* MOBILE */
 
 
 
 @media only screen and (max-width: 768px) {
+  p {padding-right: 10px;}
   .scrollable-content {
     position: relative;
     left: 0px;
@@ -501,5 +510,8 @@ padding-bottom: 100px;
 }
 div.creative div.row.page-description h1, div.creative div.row.page-description .h1, div.commercial div.row.page-description h1 {
   font-size: 30px
+}
+video.img-fluid, img.img-fluid.project-main {
+ padding-right: 10px;
 }
 }

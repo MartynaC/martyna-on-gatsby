@@ -22,7 +22,7 @@ function Items({data}){
                 {/*<video className="img-fluid" loop autoPlay={true} muted>
      			              <source src={video} type="video/mp4" />
            </video>*/}
-                <div className="project-short-desc d-none d-md-block">
+                <div className="project-short-desc ">
                  <h3>{title}</h3>
                  <p>{stack}</p>
                  <p>{role}</p>

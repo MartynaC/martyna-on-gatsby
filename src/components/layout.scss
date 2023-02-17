@@ -368,6 +368,7 @@ div.row.page-description {
   }
   .project-data {
     padding-left: 20px;
+    margin-top: 20px;
   p {
     font-size: 14px;
     line-height: 20px;
@@ -390,6 +391,12 @@ img.project-main {
   max-width: 650px;
   width: 100%;
 }
+
+div.img-fluid.project-main  {
+  height: auto!important;
+}
+
+
 
 /* ABOUT PAGE */ 
 
@@ -517,6 +524,9 @@ div.creative div.row.page-description h1, div.creative div.row.page-description 
 video.img-fluid, img.img-fluid.project-main {
  padding-right: 10px;
 }
+div.img-fluid.project-main  {
+  padding-right: 10px;
+}
 div.project-short-desc {
   background-color: #ffeaea;
   color: #000;
@@ -536,5 +546,14 @@ div.project-short-desc {
   height: 100%;
   /* opacity: 0.9; */
    display: block;
+}
+div.back-btn {
+  position: relative;
+  left: -20px;
+  float: left;
+  padding-top: 35px;
+  a{
+    padding-top: 35px;
+  }
 }
 }

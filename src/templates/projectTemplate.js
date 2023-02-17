@@ -44,7 +44,7 @@ const ProjectTemplate = ({ data }) => {
                 loop={true}
                 muted={true}
                 playsinline={true}
-                className="img-fluid"
+                className="img-fluid project-main"
               />
             )}
           </div>

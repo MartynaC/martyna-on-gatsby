@@ -5,8 +5,8 @@
       "description": "The website I developed voluntarily with the team of Web Designers as a guide of how to prepare a cellar as a bomb shelter. It was designed and developed as a quick response to the war in Ukraine. It is focused on mobile users and contains many visual guides that are available for easy download on mobile, so they can be accesible offline.",
       "slug": "commercial/bombraid",
       "image":"/project_details/bombraid_yellow.png",
-  "video":"",
-      "gif": "/project_details/Bombraid.gif",
+      "video":"/project_videos/Bombraid.mp4",
+      "gif": "",
       "stack": "React JS | HTML5 | SCSS", 
       "link": "https://bombraid.com",
       "date": "2022"
@@ -17,8 +17,8 @@
       "description": "The project for Musuem Łazienki Królewskie, where the user can generate his own custom exlibris for books in a style inspired by paintings from the White House in Museum Łazienki Królewskie.",
       "slug": "commercial/exlibris",
       "image": "https://www.project1.com/img.jpg",
-  "video":"",
-"gif": "/project_details/Ekslibris.gif",
+      "video":"/project_videos/Ekslibris.mp4",
+      "gif": "",
       "stack": "HTML5 | SCSS | Javascript | PHP",
       "link": "https://ekslibris.lazienki-krolewskie.pl/",
       "date": "2020"
@@ -28,10 +28,9 @@
       "title": "Dział zagraniczny - Foreign Department",
       "description": "The website created for the podcaster who is inviting journalist and expert guests reporting from all over the world. It is a news portal, where the user can find foreign affairs, politics, economy, culture, and science news.",
       "slug": "commercial/dzial-zagraniczny",
-    
       "stack": "Wordpress | HTML5 | SCSS | Javascript",
-  "video":"",
-"gif": "/project_details/dzialzagraniczny.gif",
+      "video":"/project_videos/dzialzagraniczny.mp4",
+    "gif": "",
       "link": "https://dzialzagraniczny.pl/",
       "date": "2022"
     },
@@ -40,9 +39,8 @@
       "title": "Kiss Dental Care",
       "description": "The website for innovative dental clinic we created from scratch, together with the web designer and my co-worker in Studio Materie. The clinic is actively expanding so we put a lot of effort into creating a website that will be easy and intuitive to maintain and update in the future.",
       "slug": "commercial/kiss-dental-care",
-  "video":"",
-"gif": "/project_details/Kiss.gif",
-    
+       "video":"/project_videos/Kiss.mp4",
+      "gif": "",
       "stack": "Wordpress | HTML5 | SCSS | Javascript | ACF",
       "link": "https://kissdental.care/",
       "date": "2022"
@@ -55,8 +53,8 @@
     
       "stack": "Wordpress | HTML5 | SCSS | Javascript",
       "link": "https://leicastore.pl/",
-  "video":"",
-"gif":"/project_details/Leicastore.gif",
+  "video":"/project_videos/Leicastore.mp4",
+"gif":"",
       "date": "2021"
     },
     {
@@ -65,7 +63,7 @@
       "description": "The online store for Warsaw Concept Store - a Warsaw based boutique with luxury products from Polish designers. I am responsible for the development and constant maintenance of this store since 2018.",
       "slug": "commercial/warsaw-concept-store",
   "video":"",
-"gif": "/project_details/WCS.gif",
+"gif": "/project_details/WCS.mp4",
     
       "stack": "Wordpress, HTML5, SCSS, Javascript",
       "link": "https://warsawconceptstore.pl/",
@@ -304,7 +302,7 @@
       "video":"/project_details/computer_science.mp4",
       "gif":"",
       "stack":"3D Animations, Cinema 4D, After Effects",
-      "link": "",
+      "link": "https://vimeo.com/manage/videos/221449408",
       "date": "2017 "
     },
     {

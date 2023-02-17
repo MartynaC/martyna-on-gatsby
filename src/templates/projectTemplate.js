@@ -3,6 +3,9 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import { Link } from "gatsby"
 import { useLocation } from "@reach/router"
+import ReactPlayer from "react-player"
+import GifPlayer from "react-gif-player"
+
 const ProjectTemplate = ({ data }) => {
   const project = data.projectsJson
 
@@ -19,43 +22,44 @@ const ProjectTemplate = ({ data }) => {
 
   return (
     <Layout>
-    <div>
-    <div className="container ">
-   
-      <div className="row page-description">
-     
-        <div className="col-md-12">
-      <h1>{project.title}</h1>
-      <div className="col-md-10">
-      <p>{project.description}</p>
-      </div>
-      </div>
-      <div className="col-md-7">
-      {project.gif.length > 0 && 
-      <img src={project.gif} className="img-fluid project-main" alt="Gif with a project content" style={{height:"100%"}} autoPlay />
-      }
-      {project.video.length > 0 && 
-      <video className="img-fluid" loop autoPlay={true} muted>
-     			              <source src={project.video} type="video/mp4" />
-           </video>
-      }
-      </div>
-      <div className="col-md-5 project-data">
-        <p>&#91; {project.stack} &#93;</p>
-        <p><a target="_blank" rel="noreferrer" href={project.link}>{project.link}</a> </p>
-        <p>{project.date}</p>
+      <div className="container ">
+        <div className="row page-description">
+          <div className="col-md-12">
+            <h1>{project.title}</h1>
+            <div className="col-md-10">
+              <p>{project.description}</p>
+            </div>
+          </div>
+          <div className="col-md-7">
+  {project.gif.length > 0 && (
+    <GifPlayer gif={project.gif} autoplay={true} className="img-fluid project-main" />
+  )}
+  {project.video.length > 0 && (
+    <ReactPlayer
+      url={project.video}
+      playing={true}
+      loop={true}
+      muted={true}
+      playsinline={true}
+      className="img-fluid"
+    />
+  )}
+</div>
+          <div className="col-md-5 project-data">
+            <p>&#91; {project.stack} &#93;</p>
+            <p>
+              <a target="_blank" rel="noreferrer" href={project.link}>
+                {project.link}
+              </a>{" "}
+            </p>
+            <p>{project.date}</p>
 
-        <div className="back-btn">
-      
-      <Link to={link}>Back to the list</Link>
-      
+            <div className="back-btn">
+              <Link to={link}>Back to the list</Link>
+            </div>
+          </div>
+        </div>
       </div>
-      </div>
-    </div>
-  
-     </div>
-      
-    </div>
     </Layout>
   )
 }

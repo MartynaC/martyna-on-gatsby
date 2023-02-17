@@ -113,15 +113,7 @@ const dataArt =[
         link:"/project/creative/erase", 
        
     },
-    {
-        id:13,
-        image:"",
-        title:"Thomas Schumaher VJ Set",
-        description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-        category:"visual performance / generative",
-        stack:"Visual performance, Audioreactive, 3D Animations, Generative Visuals",
-       
-    },
+ 
 
 ]
 

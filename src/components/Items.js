@@ -1,10 +1,10 @@
 import * as React from "react"
 import Masonry, {ResponsiveMasonry} from "react-responsive-masonry"
-import { useState } from "react"
+
 
 
 function Items({data}){
-  const [isPlaying, setIsPlaying] = useState(false);
+
     return (
         <div className="row image-grid">
           <ResponsiveMasonry
@@ -13,7 +13,7 @@ function Items({data}){
                 <Masonry>
         {
           data.map((value)=>{
-           const {id, image, title, description, link, gif, role, stack } = value;
+           const {image, title, link, role, stack } = value;
            return (
        
              <div className="grid-img">
@@ -21,7 +21,7 @@ function Items({data}){
                 <a href={link}>
           
                 <img src={image} className="img-fluid" style={{height:"100%"}}/>
-                <div className="project-short-desc">
+                <div className="project-short-desc d-none d-md-block">  
                  <h3>{title}</h3>
                  <p>{stack}</p>
                  <p>{role}</p>

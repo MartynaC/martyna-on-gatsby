@@ -12,7 +12,7 @@ function Gallery(){
     const tabsData= ["all", ...new Set(categoryData)];
     
     const filterCategory=(category) =>{
-        if(category=="all"){
+        if(category==="all"){
             setData(Data);
             return;
         }

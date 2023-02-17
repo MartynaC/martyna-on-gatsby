@@ -11,7 +11,7 @@ function Items({data}){
                   <Masonry>
         {
           data.map((value)=>{
-           const {id, image, title, description, link, video, role, stack } = value;
+           const {image, title,  link,  role, stack } = value;
            return (
        
              <div className="grid-img">
@@ -22,7 +22,7 @@ function Items({data}){
                 {/*<video className="img-fluid" loop autoPlay={true} muted>
      			              <source src={video} type="video/mp4" />
            </video>*/}
-                <div className="project-short-desc">
+                <div className="project-short-desc d-none d-md-block">
                  <h3>{title}</h3>
                  <p>{stack}</p>
                  <p>{role}</p>

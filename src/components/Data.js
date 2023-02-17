@@ -178,7 +178,6 @@ const data =[
         id:13,
         image:"/zankru.png",
         title:"Zankru",
-        stack:"#custom-wordpress",
         role:"developer",
         stack:"#custom-wordpress",
         description:"Fashion designer and artist portfolio website. ",

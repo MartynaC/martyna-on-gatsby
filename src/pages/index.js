@@ -13,7 +13,7 @@ const IndexPage = ({ data }) => {
   deleteSpeed:100,
   })
 const [text] = useTypewriter({
-  words: [' My name is Martyna. ', ' creative coder and artist,', ' and seeking for new challenges,',    ' is what drives me.'],
+  words: [' My name is Martyna. ', ' a creative coder and artist,', ' and seeking new challenges,',    ' is what drives me.'],
   loop: 0,
   deleteSpeed:100,
 })

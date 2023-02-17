@@ -44,17 +44,6 @@ const data =[
         category:"wordpress cms",
         link: "/project/commercial/leica-street-photo",
     },
-
-    {
-        id:29,
-        image:"/martyna-page.png",
-        title:"THIS WEBSITE",
-        role:"developer, competition administrator", 
-        stack:"#gatsby #gatsby-cloud #reactjs #scss #javascript",
-        description:"The wesbite you are browsing right now. ",
-        category:"react js",
-        link: "/project/commercial/my-portofolio",
-    },
     {
         id:2,
         image:"/dzialzagraniczny.png",

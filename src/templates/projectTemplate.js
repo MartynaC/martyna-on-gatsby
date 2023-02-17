@@ -20,6 +20,10 @@ const ProjectTemplate = ({ data }) => {
     link = project.link
   }
 
+
+  const Player = typeof window !== "undefined" ? require("react-player") : null
+  const GifPlayer = typeof window !== "undefined" ? require("react-gif-player") : null
+  
   return (
     <Layout>
       <div className="container ">

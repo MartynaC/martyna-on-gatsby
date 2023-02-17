@@ -337,24 +337,11 @@
       "description": "A website for European Digital Days - focused around digitalization and AI.",
       "slug": "commercial/edd",
       "video":"https://vimeo.com/manage/videos/221449408",
-      "gif":"",
-      "stack":"Custom Wordpress, Javascript, Jquery",
-      "link": "",
-      "date": "2021 "
-    },
-
-    {
-      "id": "project29",
-      "title": "THIS WEBSITE - My portfolio",
-      "description": "I have designed it myself, based on my old webpage project. It is built with Gatsby and hosted on Gatsby Cloud. I wanted to keep the code clean and simple, so the website appears lightweight and informative. ",
-      "slug": "commercial/my-portfolio",
-      "video":"",
-      "gif":"",
+      "gif":"/edd.gif",
       "stack":"Custom Wordpress, Javascript, Jquery",
       "link": "",
       "date": "2021 "
     }
-
    
 
   

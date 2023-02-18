@@ -102,7 +102,7 @@ const dataArt =[
         title:"Hype Scream Project",
         description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
         category:"3d animation",
-        link:"/project/creative/armia", 
+        link:"/project/creative/hype_scream", 
     },
     {
         id:12,

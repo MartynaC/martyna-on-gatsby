@@ -513,6 +513,7 @@ div.contact-page {
   }
   a {
     text-decoration: none;
+    font-size: 18px;
   }
 }
 .about-page { 
@@ -555,5 +556,8 @@ div.back-btn {
   a{
     padding-top: 35px;
   }
+}
+.dropdown-item:focus, .dropdown-item:hover{
+  background-color: none;
 }
 }

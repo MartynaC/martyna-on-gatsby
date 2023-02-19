@@ -85,7 +85,7 @@ const dataArt =[
         description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
         stack:"Live visual performance, Audioreactive, 3D Animations, Generative Visuals, Touchdesigner",
         category:"visual performance / generative",
-        link:"/project/creative/pobiegnij", 
+        link:"", 
     },
     {
         id:10,
@@ -94,7 +94,7 @@ const dataArt =[
         description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
         stack:"Visual performance, Audioreactive VJ Set for Stranger Things 4th Season Premiere After Party on Orange Warsaw Festival.",
         category:"visual performance / generative",
-        link:"/project/creative/stranger_things", 
+        link:"", 
     },
     {
         id:11,
